@@ -1,6 +1,8 @@
-#vim-hybrid
+# vim-hybrid
 
 Dark colorscheme for vim.
+
+This is a fork of [wong/vim-hybrid](https://github.com/w0ng/vim-hybrid).
 
 Use your favorite plugin manager for installation. I like [vim-plug](https://github.com/junegunn/vim-plug).
 
@@ -13,8 +15,6 @@ syntax on
 set background=dark
 colorscheme hybrid
 ```
-
-This is a fork. Original documentation found [here](https://github.com/w0ng/vim-hybrid).
 
 I have modified a few highlight groups to my taste.
 
