@@ -137,7 +137,8 @@ else
   let s:cterm_foreground = "250"
   let s:cterm_selection  = "237"
   let s:cterm_line       = "235"
-  let s:cterm_comment    = "243"
+"  let s:cterm_comment    = "243"
+  let s:cterm_comment    = "238"
   let s:cterm_red        = "167"
   let s:cterm_orange     = "173"
   let s:cterm_yellow     = "221"
@@ -148,7 +149,8 @@ else
   let s:cterm_delbg      = "167"
 endif
 
-let s:palette.cterm.background = { 'dark' : "234"              , 'light' : "254" }
+"let s:palette.cterm.background = { 'dark' : "234"              , 'light' : "254" }
+let s:palette.cterm.background = { 'dark' : "232"              , 'light' : "254" }
 let s:palette.cterm.foreground = { 'dark' : s:cterm_foreground , 'light' : "16"  }
 let s:palette.cterm.window     = { 'dark' : "236"              , 'light' : "247" }
 let s:palette.cterm.selection  = { 'dark' : s:cterm_selection  , 'light' : "250" }
@@ -305,7 +307,8 @@ exe "hi! CursorLineNr"  .s:fg_yellow      .s:bg_none        .s:fmt_none
 exe "hi! MatchParen"    .s:fg_background  .s:bg_changebg    .s:fmt_none
 exe "hi! ModeMsg"       .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! MoreMsg"       .s:fg_green       .s:bg_none        .s:fmt_none
-exe "hi! NonText"       .s:fg_selection   .s:bg_none        .s:fmt_none
+"exe "hi! NonText"       .s:fg_selection   .s:bg_none        .s:fmt_none
+exe "hi! NonText"       .s:fg_red          .s:bg_darkcolumn .s:fmt_none
 exe "hi! Pmenu"         .s:fg_foreground  .s:bg_selection   .s:fmt_none
 exe "hi! PmenuSel"      .s:fg_foreground  .s:bg_selection   .s:fmt_revr
 "   PmenuSbar"
