@@ -2,20 +2,26 @@
 
 Dark colorscheme for vim.
 
-This is a fork of [wong/vim-hybrid](https://github.com/w0ng/vim-hybrid).
+This is a fork of [scwood/vim-hybrid](https://github.com/scwood/vim-hybrid) ( from [wong/vim-hybrid](https://github.com/w0ng/vim-hybrid) ).
 
-Use your favorite plugin manager for installation. I like [vim-plug](https://github.com/junegunn/vim-plug).
+Use your favorite plugin manager for installation. I also like [vim-plug](https://github.com/junegunn/vim-plug).
 
 ```VimL
 call plug#begin()
-Plug 'scwood/vim-hybrid'
+Plug 'al-hub/vim-hybrid'
 call plug#end()
 
-syntax on
 set background=dark
 colorscheme hybrid
 ```
 
-I have modified a few highlight groups to my taste.
+after save and try, 
+```
+:PluginUpdate
+```
 
-![](https://cloud.githubusercontent.com/assets/9126138/13645145/bb474cb6-e5e6-11e5-8063-3ba0b8515d5b.png)
+
+I have modified a few highlight for comment, backgound to [focus the contents](https://github.com/al-hub/vim-hybrid/commit/1b41c12d4a657f7d3da559e3a3459fc14c356cda) itself.
+
+Here is my screenshot : )
+![vimscreenshot]()
