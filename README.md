@@ -17,7 +17,7 @@ colorscheme hybrid
 
 after save and try, 
 ```
-:PluginUpdate
+:PlugUpdate
 ```
 
 
