@@ -24,4 +24,5 @@ after save and try,
 I have modified a few highlight for comment, backgound to [focus the contents](https://github.com/al-hub/vim-hybrid/commit/1b41c12d4a657f7d3da559e3a3459fc14c356cda) itself.
 
 Here is my screenshot : )
-![vimscreenshot]()
+![vimscreenshot](https://raw.githubusercontent.com/al-hub/data/main/img/vim-scheme-hybrid.jpg)
+![vimscreenshot-gif](https://raw.githubusercontent.com/al-hub/data/main/img/vim-scheme-hybrid.gif)
